@@ -1,0 +1,196 @@
+/* universal selector*/
+*{
+    /*color: green;*/
+    font-size: 20px;
+  
+}
+/* tag/ element selector*/
+h1{
+    color: red;
+    text-align: center;
+    margin: 20px 0px;
+}
+/* attribute selector*/
+a[ title="google"]{
+    color: blue;
+    letter-spacing: 10px;
+}
+/* id selector*/
+#idOne{
+    color: brown;
+ 
+}
+/* class selector*/
+.classOne{
+    color: brown;
+    line-height: 30px;
+    text-indent: 40px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
+/*descendent selector*/
+.desc a{
+ color: green;
+ text-decoration: none;
+}
+.child>a{ color: blue;
+
+}
+
+/* pseudo selector*/
+a:link{
+    color: red;
+}
+a:hover{
+    color: green;
+    letter-spacing: 10px;
+}
+a:active{
+    color:yellow;
+}
+a:visited{
+    color:wheat;
+}
+/* target*/
+:target{
+    color: red;
+    border: 20px solid black;
+}
+
+
+/*border Lesson*/
+.border1{
+    border: 10px solid black;
+}
+
+.border2{
+    border-left: 10px solid black;
+}
+
+.border_size_1{
+    border-style: solid;
+    /*border-width: 10px;*/
+    /*t r b l*/
+    /* border-width: 10px 100PX;*/
+    /*t&B /L&r */
+    /*border-width : 10px 100px 100px;*/
+    /*t /L&R /B */
+    border-width:1px 50px 10px 15px;
+    /*t r b l*/
+}
+.border_style{
+    border-style: solid dashed double dotted;
+    border-color: green red;
+}
+/* margin*/
+.margin{
+border: 1px solid black;
+/*margin: 100px*/
+margin: 50px 20px;
+/*margin-left: 200px;*/
+}
+/*padding*/
+.padding{
+    border:1px solid red ;
+    padding: 100px 10px 50px 20px;
+}
+/*inline*/
+.inline{
+    border:2px solid red;
+    width: 200px;
+    display: inline-block; 
+   }
+/*block*/
+.block{
+    border:2px solid green;
+    width: 200px;
+    display: block; 
+}
+
+/*foat*/
+.float_left img{
+    width: 400px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.float_right img{
+    width: 400px;
+    float: right;
+}
+.gridOne div,.gridTwo div, .gridThree div, .gridFour div, .gridFive div, .gridSix div{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.gridOne, .gridTwo, .gridThree, .gridFour, .gridFive, .gridSix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gridTwo{
+    grid-column-gap:30px ;
+}
+.gridThree{
+    grid-row-gap:30px ;
+}
+.gridFour{
+    /* grid-gap: 50px;*/
+   grid-column-gap:30px ;
+    grid-row-gap:30px ;
+  }
+  .addcolumn{
+    grid-column-start:1;
+    grid-column-end:3 ;
+
+  }
+  .addrow{
+    grid-row-start:1;
+    grid-row-end:4 ;
+}
+
+
+
+
+/*position*/
+/*relative*/  /* html element place chart*/
+.relative_parent{
+    border:2px solid red;
+    width: 1000px;
+    height: 500px;
+}
+/* .relative or .relative_parent p*/
+.relative_parent p{
+    border:2px solid red;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top:100px;
+    left: 200px;
+}
+/*absolute*/ /* document place chart*/
+.absolute_parent{
+    border:2px solid red;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+/* .absolute or .absolute_parent p*/
+
+.absolute_parent p{
+    border:2px solid red;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top:100px;
+    left: 400px;
+}
+/*fixed*/ /* document place chart*/
+.Fixed{
+    position: fixed;
+    top: 100px;
+    right:100px;
+
+}
+
+

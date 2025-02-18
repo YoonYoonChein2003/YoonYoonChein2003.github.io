@@ -1,0 +1,14 @@
+#mybody{background-color: aqua;}
+#heading{
+    text-align:center ;
+    color: red;
+}
+#myform{
+    width: 40%;
+    margin: auto;
+}
+input[
+    type="text"]{
+width: 100%;
+height: 40px;
+}

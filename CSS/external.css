@@ -3,6 +3,9 @@ h1{
     color: red;
 }
 small{
+   display: block;
     color: green;
-    font-size: 20rex;
+    font-size: 20px;
+    text-indent: 40px;
+    
 }
