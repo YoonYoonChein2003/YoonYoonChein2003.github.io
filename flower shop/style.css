@@ -25,12 +25,13 @@ header .logo{
      display:flex;
      align-items: center;
      justify-content: center;
-     gap: 20px;
-     padding-right: 5px;
+     gap: 10px;
+    
 }
 header .navbar a{
         color:black;
         text-decoration: none;
+        padding: 10px;
     }
 
 header .logo span{
@@ -40,7 +41,6 @@ header .navbar a:hover{
    
     background-color:grey;
     border-radius: 5px;
-    padding: 10px;
     color: pink;    
 }
 
@@ -57,10 +57,10 @@ header .navbar a:hover{
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    padding-left:30px ;
 }
 .home .content{
     max-width: 30rem;
+    padding-left: 30px;
 }
 .home .content h3{
     font-size: 3rem;
@@ -524,6 +524,36 @@ footer {
     border-top: 1px solid #444;
     font-size: 14px;
 }
+
+
+
+
+.order-form {
+   
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 40px auto;
+    
+}
+h2 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 
 
 

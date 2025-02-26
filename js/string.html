@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> String Lessons</h1>
+<script>
+    let firstName = "Developer"
+    let lastName = "kyaw Zin Aung"
+    console.log(firstName,lastName);
+    console.log(lastName.length);
+
+
+    let fullName = firstName + ' ' + lastName;
+    console.log(fullName);
+
+    console.log("My name is " + fullName);
+
+    document.write(fullName + '<br>');
+
+    document.write(firstName + '<b>' + lastName + '</b><br>');
+
+    document.write(`${firstName}  <b>  ${lastName} </b><br>`);
+    document.write(`My name is ${fullName}. I am 29 years ols.<br>`);
+    
+
+    document.write(firstName.toUpperCase()+'<br>');
+    document.write(firstName.toLowerCase()+'<br>');
+
+
+//cut (substr)
+    document.write(fullname.substr(10,4) + '<br>');
+
+//cut( auto cut to space)
+let myjob ="   Senior Developer      ";
+document.write(myjob.trim()+ "<br>");
+
+
+//data search
+
+let ser = "javascript is  funny"
+document.write(ser.search('is') + '<br>');
+
+
+
+//data change
+let rep = "I wanna visit to Yangon";
+document.write(rep.replace("Yangon","Dawei") + "<br>");
+
+//writeing style in one (\)
+document.write('I\'  m Kyaw Zin Aung');
+document.write("I'm Kyaw Zin Aung, My height is 5'6\"");
+document.write(`I'm Kyaw Zin Aung, My height is 5'6\"`);
