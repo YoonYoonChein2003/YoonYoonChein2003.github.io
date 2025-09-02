@@ -250,12 +250,10 @@ font-size: 32px;
 
 /* product page*/
 .product-title {
-  
-    color: pink;
-    font-size: 32px;
-   
-    font-weight: bolder;
-    text-align: center;
+  color: pink;
+  font-size: 32px;
+font-weight: bolder;
+ text-align: center;
 }
 .product-page{
   margin-top: 50px;

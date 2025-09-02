@@ -133,6 +133,8 @@ align-items: center;
 text-align: center;
 padding: 50px 200px;
 }
+
+
 /*special menu*/
 .special{
     display: grid;
@@ -149,6 +151,8 @@ padding: 50px 200px;
 .special-img{
     width: 100%;
 }
+
+
 .silone-tea{
   
     background-image: url(../images/silonetea-bg.jpg);
@@ -170,6 +174,13 @@ padding: 50px 200px;
     width: 20%;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
 /*Our Popular Menu*/
 .our-menu-title{
     font-size: 3rem;
@@ -192,6 +203,7 @@ padding: 50px 200px;
 }
 .item-img{
     width:100% ;
+  
 }
 .item-content{
     padding: 20px;
